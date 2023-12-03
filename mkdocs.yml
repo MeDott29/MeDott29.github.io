@@ -5,6 +5,5 @@ nav:
   - Preparedness: preparedness.md
 theme:
   name: material
-  logo: assets/favicon.ico
 plugins:
   - blog
