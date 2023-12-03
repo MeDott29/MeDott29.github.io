@@ -1,1 +1,10 @@
-site_name: My Docs
+site_name: Coffee Talk
+nav:
+  - Home: index.md
+  - Resume: resume.md
+  - Preparedness: preparedness.md
+theme:
+  name: material
+  logo: assets/favicon.ico
+plugins:
+  - blog
