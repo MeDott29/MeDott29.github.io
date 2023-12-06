@@ -1,0 +1,25 @@
+name: Sweep Task
+title: 'Sweep Task: '
+description: For tasks to be handled by Sweep, our AI-powered junior developer.
+labels: sweep-task
+body:
+  - type: textarea
+    id: task_description
+    attributes:
+      label: Task Description
+      description: Describe the task that you want Sweep to perform. Be as detailed as possible.
+      placeholder: |
+        Example:
+        - Build a new feature: Create a new endpoint in our API that allows users to...
+        - Fix a bug: There's a bug in our login system where...
+        - Refactor code: The code in <FILE> could be refactored to improve...
+  - type: textarea
+    id: task_context
+    attributes:
+      label: Task Context
+      description: Provide any additional context that might help Sweep understand the task better.
+      placeholder: |
+        Example:
+        - The relevant code can be found in <FILE>.
+        - This task is related to issue #...
+        - This task should be done after...
