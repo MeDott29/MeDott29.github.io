@@ -1,5 +1,5 @@
 name: Sweep Task
-title: 'Sweep Task: '
+title: 'Sweep: '
 description: For tasks to be handled by Sweep, our AI-powered junior developer.
 labels: sweep-task
 body:
